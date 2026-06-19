@@ -44,6 +44,26 @@ git clone https://github.com/CondoriPaulo/Learning-Skills---Claude.git
 cd Learning-Skills---Claude
 ```
 
+If you already keep the repo in Git, you can work from that checkout directly or add it as a submodule. If you prefer, you can also start from a downloaded ZIP copy.
+
+There is no curl-based command in this repo that invokes a skill inside Claude or VS Code. Use the local SKILL.md file as the source, then copy or load it into the workflow you are editing.
+
+To work on one specific skill, open its `SKILL.md` file in your editor:
+
+```bash
+cd /path/to/Learning-Skills-Claude
+code ml-math-tutor-v2/SKILL.md
+```
+
+Swap the folder name for any other skill:
+
+```bash
+code stem-learning-app/SKILL.md
+code study-from-lecture/SKILL.md
+code learning-recall/SKILL.md
+code math-fluency-drill-skill/SKILL.md
+```
+
 ### 2. Create a branch
 ```
 git checkout -b skill/your-improvement-name
